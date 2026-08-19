@@ -95,8 +95,8 @@ github_repo_url = (
     f"https://github.com/mimer-ai/{github_repo_name or detected_repo_name}"
 )
 html_theme_options = {
-    "light_logo": "Mimer_logo_light.png",
-    "dark_logo": "Mimer_logo_dark.png",
+    "light_logo": "SEAIF_favicon_black.png",
+    "dark_logo": "SEAIF_favicon_white.png",
     "source_repository": github_repo_url,
     "source_branch": github_version,
     "source_directory": conf_py_path,
