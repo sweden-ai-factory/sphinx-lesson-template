@@ -19,7 +19,7 @@ project = "Your lesson name"
 author = "The contributors"
 copyright = f"2026, Sweden AI Factory, {author}"
 
-github_user = "mimer-ai"
+github_user = "sweden-ai-factory"
 github_repo_name = ""  # auto-detected from dirname if blank
 github_version = "main"
 conf_py_path = "/content/"  # with leading and trailing slash
@@ -92,7 +92,7 @@ html_static_path = ["_static"]
 html_css_files = ["overrides.css"]
 html_favicon = str((HERE / "_static" / "favicon.png").resolve())
 github_repo_url = (
-    f"https://github.com/mimer-ai/{github_repo_name or detected_repo_name}"
+    f"https://github.com/{github_user}/{github_repo_name or detected_repo_name}"
 )
 html_theme_options = {
     "light_logo": "SEAIF_favicon_black.png",
