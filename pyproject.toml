@@ -12,6 +12,7 @@ dependencies = [
   "sphinx-evita>=0.3.1b0",
   "sphinx-lesson>=0.8.16",
   "sphinxcontrib-bibtex>=2.6.5",
+  "sphinxcontrib-mermaid>=2.0.0",
 ]
 
 [dependency-groups]

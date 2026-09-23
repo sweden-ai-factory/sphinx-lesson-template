@@ -1020,6 +1020,13 @@ sdist = { url = "https://files.pythonhosted.org/packages/b2/e8/9ed3830aeed71f17c
 wheels = [{ url = "https://files.pythonhosted.org/packages/c2/42/4c8646762ee83602e3fb3fbe774c2fac12f317deb0b5dbeeedd2d3ba4b77/sphinxcontrib_jsmath-1.0.1-py2.py3-none-any.whl", upload-time = 2019-01-21T16:10:14Z, size = 5071, hashes = { sha256 = "2ec2eaebfb78f3f2078e73666b1415417a116cc848b72e5172e596c871103178" } }]
 
 [[packages]]
+name = "sphinxcontrib-mermaid"
+version = "2.1.1"
+index = "https://pypi.org/simple"
+sdist = { url = "https://files.pythonhosted.org/packages/8c/87/06537dff20aa57df2d0f2afa87edff4afa85dec6f57f03f7acc24f83ff88/sphinxcontrib_mermaid-2.1.1.tar.gz", upload-time = 2026-09-01T16:10:23Z, size = 22353, hashes = { sha256 = "f8d7f1b2f0ad69b7ebdd5cbf532fb4ee107893b5373bc2d0e9634089c0b2cfee" } }
+wheels = [{ url = "https://files.pythonhosted.org/packages/50/6a/5bf2222b8084c7a7bc3ec23d470c91e3e03e82e4ce0bbacaa61f456ce7c1/sphinxcontrib_mermaid-2.1.1-py3-none-any.whl", upload-time = 2026-09-01T16:10:22Z, size = 16368, hashes = { sha256 = "3b9ac1a8e0b5154dec3c0acf9b5c54dd9ba58540e416f20858c300814c25648f" } }]
+
+[[packages]]
 name = "sphinxcontrib-qthelp"
 version = "2.0.0"
 index = "https://pypi.org/simple"

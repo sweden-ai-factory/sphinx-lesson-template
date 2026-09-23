@@ -38,6 +38,7 @@ extensions = [
     "myst_nb",
     "sphinx.ext.todo",
     "sphinx.ext.intersphinx",
+    "sphinxcontrib.mermaid",
 ]
 
 # FIXME: add bibtex files for references if any
@@ -51,7 +52,16 @@ bibtex_bibfiles = []
 nb_execution_mode = "cache"
 
 # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
-myst_enable_extensions = ["colon_fence", "attrs_inline", "substitution"]
+myst_enable_extensions = [
+    "colon_fence",
+    "dollarmath",
+    "amsmath",
+    "attrs_inline",
+    "substitution",
+    "strikethrough",
+]
+myst_dmath_double_inline = True
+myst_fence_as_directive = {"mermaid"}
 myst_substitutions = {"author": author}
 
 # Settings for sphinx-copybutton
